@@ -30,6 +30,7 @@ slock: ${OBJ}
 
 clean:
 	@echo cleaning
+	@rm config.h
 	@rm -f slock ${OBJ} slock-${VERSION}.tar.gz
 
 dist: clean
